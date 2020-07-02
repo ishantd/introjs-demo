@@ -1,0 +1,96 @@
+
+p ,h1 ,h2,h3{
+    margin :10px;
+}
+
+
+ul{
+    margin-left: 50px;
+}
+.litem{
+    list-style-type: circle;
+}
+
+.hid-els{
+    display: none;
+}
+
+.dataframe table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+.dataframe table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.dataframe th{
+    background:#f2f2f2 ;
+}
+
+.dataframe th, td {
+    padding: 15px;
+  }
+
+
+
+.mybt{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(to right, #00d2ff, #3a7bd5 100%, #00d2ff);
+    padding: 15px;
+    cursor: pointer;
+}
+
+.test_check{
+    background: aqua;
+    padding: 10px;
+    width: 80%;
+    margin: 15px;
+    margin-bottom: 0px;
+    border-left: 3px solid;
+
+}
+
+.submiter {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(to right, #00d2ff, #3a7bd5 100%, #00d2ff);
+    padding: 15px;
+    cursor: pointer;
+    width: 80px;
+    float: right;
+    margin-top: -10px;
+}
+
+.control-box{
+    width: 150px;
+    position: fixed;
+    text-align: center;
+    bottom: 10px;
+    left: 50%;
+    background: white;
+    display: none;
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+
+.curr-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: auto;
+    padding: 10px 10px 20px 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: white;
+    margin-bottom: -60px !important;
+    width: 100%;
+
+}
+#trigger{
+    padding-left: 20px;
+padding-top: 4px;
+}
